@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login_Signup">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="398dp"
+        android:src="@drawable/green_backgroung"/>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="56dp"
+            android:src="@drawable/bb_white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="141dp"
+            android:layout_marginTop="163dp"
+            android:text="Login/Signup"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <RelativeLayout
+        android:layout_width="380dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="200dp"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="83dp"
+            android:textColor="#a6a2a2"
+            android:text="Enter Mobile Number(10-digit)" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="133dp"
+            android:text="+91 - " />
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:inputType="phone"
+            android:layout_marginTop="120dp"
+            android:paddingLeft="45dp" />
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="25dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="133dp"
+                android:textAlignment="center"
+                android:paddingTop="2dp"
+                android:layout_marginEnd="24dp"
+                android:text="Use Email"
+                android:background="@drawable/white_border"/>
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="60dp"
+                android:background="@drawable/rounded_corner"
+                android:paddingTop="5dp"
+                android:text="Continue"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="27dp"
+                android:layout_marginTop="251dp"
+                android:layout_marginEnd="156dp"
+                android:layout_marginBottom="30dp"
+                android:text="By continuning you agree to our"
+                android:textColor="#a6a2a2"
+                android:textSize="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="170dp"
+                android:layout_marginTop="251dp"
+                android:layout_marginEnd="13dp"
+                android:layout_marginBottom="30dp"
+                android:text="Terms and Conditions"
+                android:textColor="#0924ad"
+                android:textSize="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="268dp"
+                android:layout_marginTop="250dp"
+                android:layout_marginEnd="-85dp"
+                android:layout_marginBottom="31dp"
+                android:text="and"
+                android:textColor="#a6a2a2"
+                android:textSize="10dp" />
+
+            <TextView
+                android:layout_width="92dp"
+                android:layout_height="17dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="288dp"
+                android:layout_marginTop="250dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="33dp"
+                android:text="Privacy Policy"
+                android:textColor="#0924ad"
+                android:textSize="10dp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
